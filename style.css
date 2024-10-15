@@ -1,0 +1,71 @@
+::placeholder {
+    text-align: center;
+    color: darkgreen;
+    font-size: 25px;
+}
+
+input {
+    padding: 10px;
+    color: darkgreen;
+    text-align: right;
+    border-radius: 10px;
+    width: 140px;
+    height: 13px;
+    border: none;
+    font-size: 20px;
+    background-color: #a7ffac;
+
+
+}
+fieldset{
+    border-radius: 10px;
+    border: 3px solid darkgreen;
+    height: 52px;
+    margin-bottom: 4px;
+    
+
+}
+
+img {
+    width: 87px;
+    height: 87px;
+
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#monthinves {
+    width: 220px;
+    font-size: 20px;
+}
+
+/* #monthvalue{
+    width: 50px;
+    font-size: 17px;
+    padding:1px;
+    height: 60px;
+    margin-left: 4px;
+    padding-right: 10px;
+} */
+.same {
+    width: 100px;
+    margin: 0 8px 0 8px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 45px;
+    overflow-x:auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}

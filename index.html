@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit</title>
+    <link rel="shortcut icon"
+        href="data:image/png;base64,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"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(225, 255, 227);">
+    <center>
+        <button style="background-color: greenyellow;
+        border: none;border-radius: 5px;width: 100px;height: 40px;font-size: 20px;position:sticky;top: 10px;" onclick="r()" >Refresh</button>
+        <div id="firstdiv" style="border: 10px black solid;">
+            <br><h2>Get Percentage from Profit and Investment...</h2>
+            <div class="block">
+                <fieldset>
+                    <legend>Profit</legend>
+                    <input inputmode="numeric"  oninput="profit()" id="prfit" placeholder="" type="number">
+                </fieldset>
+                <img onclick="a1()" src="./7083581.png" alt="">
+            </div>
+            <br>
+            <div class="block">
+                <fieldset>
+                    <legend>Investment</legend>
+                    <input inputmode="numeric" oninput="profit()" id="invesr" placeholder="" type="number">
+                </fieldset>
+                <img onclick="a2()" src="./7083581.png" alt="">
+            </div>
+            <br><br>
+            <div style="border-radius: 10px; font-size: 30px;color: white; background-color: green; border: 5px solid darkgreen; width: 275px;">
+                <h4><span id="Percent"></span> %</h4>
+            </div>
+            <br>
+        </div>
+
+        <br>
+
+        <div id="seconddiv" style="border: 10px black solid;">
+            <br><h2>Get Amount of Percentage from Investment...</h2>
+            <div class="block">
+                <fieldset>
+                    <legend>Investment</legend>
+                    <input inputmode="numeric" oninput="percentage()" id="inves" placeholder="" type="number">
+                </fieldset>
+                <img onclick="a3()" src="./7083581.png" alt="">
+            </div>
+            <br><br>
+            <div class="block">
+                <fieldset>
+                    <legend>Percentage</legend>
+                    <input inputmode="numeric" oninput="percentage()" id="perc" placeholder="" type="number">
+                </fieldset>
+                <img onclick="a4()" src="./7083581.png" alt="">
+            </div>
+            <br><br>
+            <div style="border-radius: 10px; font-size: 30px;color: white; background-color: green; border: 5px solid darkgreen; width: 275px;">
+                <h4><span id="amount">Amount</span></h4>
+            </div>
+            <br>
+        </div>
+
+        <br>
+
+        <div id="thirddiv" style="border: 10px black solid;">
+            <br><h2>Get Profit Or Loss</h2>
+            <div class="block">
+                <fieldset>
+                    <legend>Sale</legend>
+                    <input inputmode="numeric" oninput="sale()" id="ale" placeholder="" type="number">
+                </fieldset>
+                <img onclick="a5()" src="./7083581.png" alt="">
+            </div>
+            <br><br>
+            <div class="block">
+                <fieldset>
+                    <legend>Cost</legend>
+                    <input inputmode="numeric" oninput="sale()" id="cost" placeholder="" type="number">
+                </fieldset>
+                <img onclick="a6()" src="./7083581.png" alt="">
+            </div>
+            <br><br>
+            <div style="border-radius: 10px; font-size: 30px;color: white; background-color: green; border: 5px solid darkgreen; width: 275px;">
+                <h4><span id="salecost"></span> % Profit</h4>
+                <h4><span id="sa"></span> % Cost</h4>
+                <h4><span id="ppp">Amount</span></h4>
+            </div>
+            <br>
+        </div>
+
+        <br>
+
+        <div id="abcde" style="border: 10px black solid;">
+            <br><h2>Get Investment Profit By Percentage...</h2>
+            <div class="block">
+                <fieldset>
+                    <legend>Investment</legend>
+                    <input inputmode="numeric" oninput="monthly()" id="monthinves" placeholder="" type="number">
+                </fieldset>
+            </div>
+            <br><br>
+            <div class="block">
+                <fieldset>
+                    <legend>Percentage & Months</legend>
+                    <input inputmode="numeric" oninput="monthly()" class="same" id="monthpercen" placeholder="" type="number">
+                    <input inputmode="numeric" oninput="monthly()" class="same" type="number" maxlength="2" placeholder="" id="monthvalue">
+                </fieldset>
+            </div>
+            <br><br>
+            <div style="border-radius: 10px; font-size: 30px;color: white; background-color: green; border: 5px solid darkgreen; width: 275px;">
+                <h4><span id="totalbenifits">Increase</span></h4>
+                <h4><span id="totalbenifis">Fixed</span></h4>
+            </div>
+            <br>
+        </div>
+    </center>
+</body>
+
+
+
+        
+
+    <script src="app.js"></script>
+</body>
+
+</html>
